@@ -167,3 +167,39 @@ body {
   text-decoration: underline;
   color: #ffffff91;
 }
+
+.forgot-mobile a {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+    background-color: transparent;
+    padding: 30px 30px;
+    backdrop-filter: blur(10px);
+  }
+
+  .remember-forgot {
+    font-size: 0.9rem;
+  }
+
+  .remember-forgot a {
+    display: none;
+  }
+
+  .forgot-mobile a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin: 2rem 0;
+  }
+}
