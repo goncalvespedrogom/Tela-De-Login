@@ -175,9 +175,9 @@ body {
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
-    background-color: transparent;
+    background-color: #ffffff1e;
     padding: 30px 30px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: none;
   }
 
   .remember-forgot {
